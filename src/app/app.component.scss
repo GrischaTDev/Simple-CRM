@@ -1,0 +1,39 @@
+.toolbar-content {
+    min-height: 56px;
+}
+
+.mat-drawer-container {
+    height: 100vh;
+    >.sidenav {
+        width: 300px;
+
+    }
+}
+
+.logo-container {
+    padding: 16px;
+    border-bottom: solid 1px white;
+    min-height: 64px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+
+}
+
+.menu-icon {
+    margin-right: 20px;
+    border: none;
+    color: white;
+    background: none;
+    height: 32px;
+    cursor: pointer;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
